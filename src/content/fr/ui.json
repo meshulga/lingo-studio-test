@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "blog": "Blog"
+  },
+  "blogSidebar": {
+    "heading": "Localisez votre contenu avec Lingo",
+    "body": "Lingo traduit vos fichiers Markdoc, JSON et YAML dans toutes les langues cibles avec une seule commande. Ajoutez-le à votre projet en quelques minutes."
+  },
+  "blog": {
+    "metaAuthorPrefix": "Par",
+    "metaCategoryUpdates": "Exemple"
+  },
+  "home": {
+    "bento": {
+      "playVideo": "Lire la vidéo",
+      "amountDue": "Total",
+      "processing": "En cours…",
+      "paid": "Terminé"
+    }
+  }
+}

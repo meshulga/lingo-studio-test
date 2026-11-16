@@ -1,0 +1,42 @@
+{
+  "$schema": "https://api.lingo.dev/github-app/schema.json",
+  "orgId": "org_EelKieP2aYLveLe8",
+  "engineId": "eng_SHzOvfNKQ6q64w95MdBz",
+  "sourceLocale": "en",
+  "targetLocales": ["es", "fr", "de"],
+  "files": [
+    {
+      "pattern": "src/content/en/pages/*.md",
+      "format": "markdoc",
+      "translateFrontmatterFields": ["title", "description", "badge"],
+      "translateComponentProps": [
+        {
+          "component": ["bento-video", "bento-payment"],
+          "props": ["label"]
+        }
+      ]
+    },
+    {
+      "pattern": "src/content/en/blog/*.md",
+      "format": "markdoc",
+      "translateFrontmatterFields": ["title", "description"]
+    },
+    {
+      "pattern": "src/content/en/ui.json",
+      "format": "json"
+    }
+  ],
+  "github": {
+    "workflows": {
+      "onPushToDefaultBranch": {
+        "enabled": true
+      },
+      "onPullRequest": {
+        "enabled": true
+      }
+    },
+    "safety": {
+      "requireApproval": true
+    }
+  }
+}
