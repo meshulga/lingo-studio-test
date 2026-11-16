@@ -14,7 +14,7 @@
     "bento": {
       "playVideo": "Lire la vidéo",
       "amountDue": "Total",
-      "processing": "En cours…",
+      "processing": "Traitement en cours…",
       "paid": "Terminé"
     }
   }
