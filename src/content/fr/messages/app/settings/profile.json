@@ -1,0 +1,14 @@
+{
+  "title": "Profil",
+  "fields": {
+    "name": {
+      "label": "Nom complet",
+      "placeholder": "Jane Doe"
+    },
+    "email": {
+      "label": "Adresse e-mail",
+      "help": "Nous envoyons les reçus et les alertes de sécurité à cette adresse."
+    }
+  },
+  "greeting": "Bon retour parmi nous, {name} !"
+}

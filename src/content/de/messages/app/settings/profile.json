@@ -1,0 +1,14 @@
+{
+  "title": "Profil",
+  "fields": {
+    "name": {
+      "label": "Vollständiger Name",
+      "placeholder": "Erika Mustermann"
+    },
+    "email": {
+      "label": "E-Mail-Adresse",
+      "help": "An diese Adresse senden wir Belege und Sicherheitswarnungen."
+    }
+  },
+  "greeting": "Willkommen zurück, {name}!"
+}

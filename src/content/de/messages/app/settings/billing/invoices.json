@@ -1,0 +1,11 @@
+{
+  "title": "Rechnungen",
+  "empty": "Sie haben noch keine Rechnungen.",
+  "table": {
+    "date": "Datum",
+    "amount": "Betrag",
+    "status": "Status"
+  },
+  "count": "{count, plural, one {# Rechnung} other {# Rechnungen}}",
+  "download": "PDF herunterladen"
+}
