@@ -13,7 +13,7 @@
   "home": {
     "bento": {
       "playVideo": "Video abspielen",
-      "amountDue": "Gesamt",
+      "amountDue": "Fälliger Betrag",
       "processing": "Wird verarbeitet…",
       "paid": "Bezahlt"
     }
