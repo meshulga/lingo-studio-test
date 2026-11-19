@@ -24,6 +24,15 @@
     {
       "pattern": "src/content/en/ui.json",
       "format": "json"
+    },
+    {
+      "pattern": "src/content/en/docs/**/*.md",
+      "format": "markdoc",
+      "translateFrontmatterFields": ["title", "description"]
+    },
+    {
+      "pattern": "src/content/en/messages/**/*.json",
+      "format": "json"
     }
   ],
   "github": {

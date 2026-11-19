@@ -1,0 +1,14 @@
+{
+  "title": "Profile",
+  "fields": {
+    "name": {
+      "label": "Full name",
+      "placeholder": "Jane Doe"
+    },
+    "email": {
+      "label": "Email address",
+      "help": "We send receipts and security alerts to this address."
+    }
+  },
+  "greeting": "Welcome back, {name}!"
+}
