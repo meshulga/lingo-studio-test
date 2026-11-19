@@ -1,6 +1,6 @@
 ---
 title: pnpm dev
-description: Inicia el servidor de desarrollo local.
+description: Inicia el servidor de desarrollo local.232
 order: 1
 ---
 
