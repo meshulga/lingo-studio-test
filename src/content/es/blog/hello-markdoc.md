@@ -7,7 +7,7 @@ author: Lingo team
 
 {% blog-hero version="v1" /%}
 
-## Por qué existe este ejemplo
+## Por qué existe este ejemploывы
 
 Muchos tutoriales cubren Markdoc por sí solo, o i18n por sí solo. Este repositorio muestra toda la arquitectura integrada: páginas extensas en Markdoc, cadenas de interfaz en JSON, rutas con prefijo de idioma y un pipeline de traducción automatizado.
 
