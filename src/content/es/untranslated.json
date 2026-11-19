@@ -1,0 +1,9 @@
+{
+  "maintenance": {
+    "title": "Mantenimiento programado"
+  },
+  "errors": {
+    "timeout": "La solicitud tardó demasiado. Inténtalo de nuevo.",
+    "rateLimited": "Demasiadas solicitudes. Espera {seconds} segundos e inténtalo de nuevo."
+  }
+}
