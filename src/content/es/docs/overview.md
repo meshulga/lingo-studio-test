@@ -4,7 +4,7 @@ description: Dónde encontrar los pasos de configuración, las guías de conteni
 order: 1
 ---
 
-# Descripción general de la documentación
+# Descripción general de la documentaciónоаваф
 
 Esta sección está organizada como un manual de producto. Las páginas se encuentran a distintas profundidades de carpetas, de modo que las herramientas que exploran el repositorio puedan probarse con carpetas anidadas.
 
