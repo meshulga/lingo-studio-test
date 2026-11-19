@@ -33,6 +33,10 @@
     {
       "pattern": "src/content/en/messages/**/*.json",
       "format": "json"
+    },
+    {
+      "pattern": "src/content/en/untranslated.json",
+      "format": "json"
     }
   ],
   "github": {

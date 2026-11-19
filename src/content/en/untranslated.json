@@ -1,0 +1,12 @@
+{
+  "notice": "This catalog is intentionally left untranslated so Studio can show a source file with no translations.",
+  "maintenance": {
+    "title": "Scheduled maintenance",
+    "body": "Some features may be unavailable on Sunday between 02:00 and 04:00 UTC."
+  },
+  "errors": {
+    "network": "We couldn't reach the server. Check your connection and try again.",
+    "timeout": "The request took too long. Please try again.",
+    "rateLimited": "Too many requests. Wait {seconds} seconds and try again."
+  }
+}
