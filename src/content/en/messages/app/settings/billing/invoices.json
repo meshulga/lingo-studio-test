@@ -1,0 +1,11 @@
+{
+  "title": "Invoices",
+  "empty": "You have no invoices yet.",
+  "table": {
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status"
+  },
+  "count": "{count, plural, one {# invoice} other {# invoices}}",
+  "download": "Download PDF"
+}

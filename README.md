@@ -4,15 +4,19 @@ Test content for Studio 2.5 in the Lingo.dev (Testing) organization. It is a cop
 
 ## Test files
 
-| What                    | Path                                            |
-| ----------------------- | ----------------------------------------------- |
-| Markdoc pages (source)  | `src/content/en/pages/*.md`                     |
-| Markdoc blog (source)   | `src/content/en/blog/*.md`                      |
-| UI strings (source)     | `src/content/en/ui.json`                        |
-| Existing translations   | `src/content/{es,fr,de}/…`, same layout as `en` |
-| Lingo.dev configuration | `.lingo/config.json`                            |
+| What                     | Path                                            |
+| ------------------------ | ----------------------------------------------- |
+| Markdoc pages (source)   | `src/content/en/pages/*.md`                     |
+| Markdoc blog (source)    | `src/content/en/blog/*.md`                      |
+| UI strings (source)      | `src/content/en/ui.json`                        |
+| Nested docs (source)     | `src/content/en/docs/**/*.md`                   |
+| Nested catalogs (source) | `src/content/en/messages/**/*.json`             |
+| Existing translations    | `src/content/{es,fr,de}/…`, same layout as `en` |
+| Lingo.dev configuration  | `.lingo/config.json`                            |
 
-Source locale is `en`; target locales are `es`, `fr`, `de`. Markdoc pages translate the `title`, `description` and `badge` frontmatter fields and the `label` prop of `bento-video` and `bento-payment`; blog posts translate `title` and `description`.
+Source locale is `en`; target locales are `es`, `fr`, `de`. Markdoc pages translate the `title`, `description` and `badge` frontmatter fields and the `label` prop of `bento-video` and `bento-payment`; blog posts and nested docs translate `title` and `description`.
+
+The nested docs and catalogs exist to test deep, branching folders: up to seven levels below `en` (`docs/reference/api/v2/endpoints/jobs/batch/create.md`) and one file directly under `docs/`. They start without translations; the site does not render them.
 
 ## Organization and engine
 
