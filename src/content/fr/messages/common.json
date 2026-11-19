@@ -1,0 +1,13 @@
+{
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "retry": "Réessayer"
+  },
+  "status": {
+    "loading": "Chargement…",
+    "saved": "Toutes les modifications ont été enregistrées",
+    "offline": "Vous êtes hors ligne. Les modifications seront synchronisées dès que vous serez de nouveau connecté."
+  }
+}

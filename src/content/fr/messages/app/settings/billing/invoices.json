@@ -1,0 +1,11 @@
+{
+  "title": "Factures",
+  "empty": "Vous n'avez pas encore de factures.",
+  "table": {
+    "date": "Date",
+    "amount": "Montant",
+    "status": "Statut"
+  },
+  "count": "{count, plural, one {# facture} many {# factures} other {# factures}}",
+  "download": "Télécharger le PDF"
+}

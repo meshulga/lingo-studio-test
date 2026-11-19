@@ -1,0 +1,13 @@
+{
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "retry": "Intentar de nuevo"
+  },
+  "status": {
+    "loading": "Cargando…",
+    "saved": "Todos los cambios se han guardado",
+    "offline": "Estás sin conexión. Los cambios se sincronizarán cuando vuelvas a conectarte."
+  }
+}

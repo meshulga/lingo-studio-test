@@ -1,0 +1,15 @@
+{
+  "visits": {
+    "title": "Besuche",
+    "tooltip": "{value} Besuche am {date}"
+  },
+  "conversion": {
+    "title": "Konversionsrate",
+    "tooltip": "{value} % der Besucher haben sich registriert"
+  },
+  "legend": {
+    "thisWeek": "Diese Woche",
+    "lastWeek": "Letzte Woche"
+  },
+  "empty": "Noch nicht genügend Daten, um dieses Diagramm darzustellen."
+}
