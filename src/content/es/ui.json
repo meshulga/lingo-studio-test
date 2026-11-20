@@ -7,13 +7,13 @@
     "body": "Lingo traduce archivos Markdoc, JSON y YAML a todos los idiomas con un solo comando. Añádelo a tu proyecto en minutos."
   },
   "blog": {
-    "metaAuthorPrefix": "Poaesd",
+    "metaAuthorPrefix": "Poaesdadad",
     "metaCategoryUpdates": "Ejemplo312123"
   },
   "home": {
     "bento": {
       "playVideo": "Reproducir vídeo",
-      "amountDue": "Total",
+      "amountDue": "Totals",
       "processing": "Procesando…",
       "paid": "Listo"
     }
