@@ -38,6 +38,59 @@ Running `lingo push` reads the source-locale files, translates whatever has chan
 
 `src/proxy.ts` inspects the `Accept-Language` header and redirects bare paths like `/` or `/blog/hello-markdoc` to the best-matching locale. Unknown locales fall back to `en`.
 
+## Adding a new locale
+
+Adding a language is a single edit. `src/lib/i18n.ts` builds its `locales` list from `.lingo/config.json`, so the router, static generation and the translation pipeline all read the same list:
+
+```json
+{
+  "sourceLocale": "en",
+  "targetLocales": ["es", "fr", "de", "ja"]
+}
+```
+
+Run `lingo push` after the change. Every source file is translated into the new locale, and the existing locales are left alone. On the next build, `generateStaticParams` in `src/app/[lang]/layout.tsx` emits one set of pages per language, including the new one.
+
+{% callout type="warning" %}
+Pick locale codes once and keep them. Renaming `pt` to `pt-BR` later moves every translated file to a new folder and changes every URL that contains the locale.
+{% /callout %}
+
+## Writing content that translates well
+
+Machine translation is only as good as its source. A few habits make the output noticeably better:
+
+- **Keep sentences short.** One idea per sentence is easier to translate and easier to review.
+- **Avoid idioms and wordplay.** "Hit the ground running" survives a trip through German about as well as you'd expect.
+- **Put commands and file names in backticks.** Inline code is copied as written, so `lingo push` never turns into a verb in Spanish.
+- **Write headings that stand alone.** "Setup" is ambiguous; "Set up your engine" gives the translator the context it needs.
+- **Keep whole sentences in one string.** Sentences glued together from fragments break in languages with a different word order. Use a placeholder for the part that changes instead.
+
+### Frontmatter is content too
+
+The `title` and `description` fields at the top of each post are translated along with the body, because they appear in the blog index and in search results. Fields that are not listed in `translateFrontmatterFields`, such as `date` and `author`, are copied unchanged.
+
+## Reviewing translations
+
+Generated translations are a first draft. Treat them the way you treat code:
+
+1. Run `git diff` after `lingo push` and read the changes for each locale.
+2. Pay extra attention to headings, calls to action and anything legal.
+3. Fix wording directly in the target file and commit it together with the generated changes.
+
+Because unchanged entries are skipped, a fix stays in place until the English passage it translates changes.
+
+{% callout type="danger" %}
+Never change the meaning of a translated file on its own. If the English is wrong, fix the English and translate again; otherwise the locales drift apart, and nobody notices until a reader does.
+{% /callout %}
+
+## Common pitfalls
+
+A few things that trip people up:
+
+- **Renaming a source file.** The translations stay behind under the old name. Move or delete them in the same commit.
+- **Breaking a Markdoc tag in a translation.** If a translated page fails to render, compare its tags with the English source. Tag names and attributes must match exactly.
+- **Translating text inside components.** Strings passed as tag attributes are not translated unless the config lists them, the way `translateComponentProps` lists `label` for the bento tiles on the home page.
+
 ## Try it yourself
 
 1. Clone the repo and run `pnpm install`.
