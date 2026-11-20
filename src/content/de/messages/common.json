@@ -2,7 +2,7 @@
   "actions": {
     "save": "Speichern",
     "cancel": "Abbrechen",
-    "delete": "Löschen",
+    "delete": "Löschens",
     "retry": "Erneut versuchen"
   },
   "status": {
