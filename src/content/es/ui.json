@@ -14,7 +14,7 @@
     "bento": {
       "playVideo": "Reproducir vídeo",
       "amountDue": "Totals",
-      "processing": "Procesando…",
+      "processing": "Procesando… (e2e)",
       "paid": "Listo"
     }
   }

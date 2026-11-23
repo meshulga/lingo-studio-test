@@ -23,7 +23,7 @@ Las etiquetas personalizadas de Markdoc se renderizan como componentes React, in
 {% bento-tile colSpan=1 %}
 ### Demos interactivas
 
-Inserta cualquier componente cliente dentro de un documento.
+Inserta cualquier componente cliente dentro de un documento en un documento Markdoc.
 
 {% bento-payment amount="$40.00" label="Probar" /%}
 {% /bento-tile %}
