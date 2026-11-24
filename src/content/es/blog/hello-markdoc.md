@@ -17,7 +17,7 @@ Muchos tutoriales cubren Markdoc por sí solo, o i18n por sí solo. Este reposit
 El objetivo es tener una única fuente de verdad por cada pieza de contenido, en un solo idioma, con traducciones generadas bajo demanda.
 {% /callout %}
 
-### Markdoc se renderiza en App Router
+### Markdoc se renderiza en App Routers
 
 Cada ruta bajo `src/app/[lang]/` carga un documento con `loadDoc(locale, collection, slug)` y pasa el árbol transformado a `renderMarkdoc`. Las etiquetas personalizadas – `callout`, `bento`, `blog-hero` y similares – se declaran en `src/markdoc.schema.ts` e implementan bajo `src/components/markdoc/`.
 
