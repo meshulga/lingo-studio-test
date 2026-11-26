@@ -15,7 +15,7 @@
       "localizations": {
         "en": { "stringUnit": { "state": "translated", "value": "Pay now" } },
         "de": { "stringUnit": { "state": "translated", "value": "Jetzt bezahlen" } },
-        "es": { "stringUnit": { "state": "translated", "value": "Pagar ahora" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Pagar ya" } },
         "fr": { "stringUnit": { "state": "translated", "value": "Payer maintenant" } }
       }
     },
