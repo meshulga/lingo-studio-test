@@ -1,6 +1,6 @@
 checkout:
   title: Pago
-  subtitle: Revisa tu pedido antes de pagar.
+  subtitle: Revisa tu pedido antes de confirmar.
   form:
     email: Correo electrónico
     shipping_address: Dirección de envío
