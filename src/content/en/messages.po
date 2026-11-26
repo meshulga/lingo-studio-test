@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Your cart is empty"
+msgstr ""
+
+msgctxt "button"
+msgid "Continue shopping"
+msgstr ""
+
+msgid "%d item in your cart"
+msgid_plural "%d items in your cart"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Free shipping on orders over $50"
+msgstr ""

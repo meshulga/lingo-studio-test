@@ -1,0 +1,33 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "checkout.items_count": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": { "variations": { "plural": { "one": { "stringUnit": { "state": "translated", "value": "%lld item" } }, "other": { "stringUnit": { "state": "translated", "value": "%lld items" } } } } },
+        "de": { "variations": { "plural": { "one": { "stringUnit": { "state": "translated", "value": "%lld Artikel" } }, "other": { "stringUnit": { "state": "translated", "value": "%lld Artikel" } } } } },
+        "es": { "variations": { "plural": { "one": { "stringUnit": { "state": "translated", "value": "%lld artículo" } }, "other": { "stringUnit": { "state": "translated", "value": "%lld artículos" } } } } },
+        "fr": { "variations": { "plural": { "one": { "stringUnit": { "state": "translated", "value": "%lld article" } }, "other": { "stringUnit": { "state": "translated", "value": "%lld articles" } } } } }
+      }
+    },
+    "checkout.pay_button": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Pay now" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Jetzt bezahlen" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Pagar ahora" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Payer maintenant" } }
+      }
+    },
+    "checkout.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Checkout" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Kasse" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Pago" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Paiement" } }
+      }
+    }
+  },
+  "version": "1.0"
+}

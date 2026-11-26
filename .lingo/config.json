@@ -37,6 +37,18 @@
     {
       "pattern": "src/content/en/untranslated.json",
       "format": "json"
+    },
+    {
+      "pattern": "src/content/Localizable.xcstrings",
+      "format": "xcode-xcstrings"
+    },
+    {
+      "pattern": "src/content/en/messages.po",
+      "format": "po"
+    },
+    {
+      "pattern": "src/content/en/strings.yaml",
+      "format": "yaml"
     }
   ],
   "github": {

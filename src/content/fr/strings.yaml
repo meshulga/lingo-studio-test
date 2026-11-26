@@ -1,0 +1,8 @@
+checkout:
+  title: Paiement
+  subtitle: Vérifiez votre commande avant de payer.
+  form:
+    email: E-mail
+    shipping_address: Adresse de livraison
+  actions:
+    place_order: Passer la commande

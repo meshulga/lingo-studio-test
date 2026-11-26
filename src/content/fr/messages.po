@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Your cart is empty"
+msgstr "Votre panier est vide"
+
+msgctxt "button"
+msgid "Continue shopping"
+msgstr "Continuer vos achats"
+
+msgid "%d item in your cart"
+msgid_plural "%d items in your cart"
+msgstr[0] "%d article dans votre panier"
+msgstr[1] "%d articles dans votre panier"
+
+#, fuzzy
+msgid "Free shipping on orders over $50"
+msgstr "Livraison gratuite dès 50 $"

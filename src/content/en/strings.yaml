@@ -1,0 +1,8 @@
+checkout:
+  title: Checkout
+  subtitle: Review your order before you pay.
+  form:
+    email: Email
+    shipping_address: Shipping address
+  actions:
+    place_order: Place order

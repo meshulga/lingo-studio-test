@@ -1,0 +1,8 @@
+checkout:
+  title: Pago
+  subtitle: Revisa tu pedido antes de pagar.
+  form:
+    email: Correo electrónico
+    shipping_address: Dirección de envío
+  actions:
+    place_order: Realizar pedido

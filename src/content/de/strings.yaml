@@ -1,0 +1,8 @@
+checkout:
+  title: Kasse
+  subtitle: Überprüfe deine Bestellung, bevor du bezahlst.
+  form:
+    email: E-Mail
+    shipping_address: Lieferadresse
+  actions:
+    place_order: Bestellung aufgeben
