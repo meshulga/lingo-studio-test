@@ -14,8 +14,7 @@ msgstr "Continuer vos achats"
 msgid "%d item in your cart"
 msgid_plural "%d items in your cart"
 msgstr[0] "%d article dans votre panier"
-msgstr[1] "%d articles dans votre panier"
+msgstr[1] "%d articles dans le panier"
 
-#, fuzzy
 msgid "Free shipping on orders over $50"
-msgstr "Livraison gratuite dès 50 $"
+msgstr "Livraison offerte dès 50 $"
