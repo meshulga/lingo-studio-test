@@ -6,7 +6,7 @@ order: 1
 
 # Instalación
 
-Necesitas Node.js 20 o una versión posterior y pnpm.
+Necesitas Node.js 20 o posterior y pnpm.
 
 1. Clona el repositorio.
 2. Instala las dependencias con `pnpm install`.
