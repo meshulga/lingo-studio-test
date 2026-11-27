@@ -8,8 +8,8 @@ order: 1
 
 Esta sección está organizada como un manual de producto. Las páginas se encuentran a distintas profundidades de carpetas, de modo que las herramientas que exploran el repositorio puedan probarse con carpetas anidadas.
 
-- **Primeros pasos** abarca la instalación y la primera ejecución de traducción.
-- **Guías** explican cómo se redacta el contenido y cómo llegan las traducciones al repositorio.
+- **Primeros pasos** abarca la instalación y la primera traducción.
+- **Guías** explican cómo se escribe el contenido y cómo llegan las traducciones al repositorio.
 - **Referencia** describe una API de ejemplo y los comandos del proyecto.
 
 {% callout type="note" %}
