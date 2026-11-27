@@ -1,5 +1,5 @@
 checkout:
-  title: Pago
+  title: Pago (e2e-qa)
   subtitle: Revisa tu pedido antes de pagar.
   form:
     email: Correo electrónico
