@@ -1,5 +1,5 @@
 checkout:
-  title: Pago
+  title: Finalizar compra
   subtitle: Revisa tu pedido antes de pagar.
   form:
     email: Correo electrónico

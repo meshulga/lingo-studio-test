@@ -10,5 +10,5 @@
       "help": "Enviamos los recibos y las alertas de seguridad a esta dirección."
     }
   },
-  "greeting": "¡Te damos la bienvenida de nuevo, {name}!"
+  "greeting": "¡Hola de nuevo, {name}!"
 }
